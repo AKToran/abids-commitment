@@ -61,6 +61,8 @@ hr{
   color: rgb(13, 19, 33);
   font-weight: 800;
   line-height: 37px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 /*! header styles */
@@ -132,17 +134,17 @@ nav h1{
   margin-top: 25px;
 }
 
-.inspiration{
+.inspiration, .current-target{
   margin: 50px 150px;
 }
 
-.inspiration >h1, .inspiration>p{
+.inspiration>p , .current-target>p{
   text-align: center;
   margin-bottom: 20px;
 }
 
-.inspiration > .description{
-  padding: 0px 100px;
+.inspiration > .description, .current-target > .description{
+  padding: 0px 120px;
 }
 
 .video{
@@ -151,8 +153,37 @@ nav h1{
   border: 1px solid gray;
   align-items: center;
   justify-self: center;
+  margin-bottom: 100px;
 }
 
 iframe{
   width: 100%;
+}
+
+.current-target .cards{
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.current-target .card{
+  padding: 40px;
+  border-radius: 16px;
+  margin: 45px 0px;
+}
+
+.current-target .card a{
+  font-weight: 700;
+  font-size: 18px;
+  color: rgb(13, 19, 33);
+}
+
+.c1{
+  background: rgba(255, 76, 30, 0.05);
+}
+.c2{
+  background: rgba(0, 76, 232, 0.05);
+}
+.c3{
+  background: rgba(233, 225, 87, 0.4);
 }
