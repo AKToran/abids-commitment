@@ -115,7 +115,7 @@ nav h1{
 }
 
 .why-dev-info{
-  background: linear-gradient(to right, rgba(255, 255, 255, .99), rgba(13, 19, 33, 0.09));
+  background: linear-gradient(to right, rgba(255, 255, 255, .1), rgba(13, 19, 33, 0.1));
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -127,7 +127,7 @@ nav h1{
 }
 
 .why-dev-info-2{
-  background: linear-gradient(to right, rgba(13, 19, 33, 0.09), rgba(255, 255, 255, .99));
+  background: linear-gradient(to right, rgba(13, 19, 33, 0.1), rgba(255, 255, 255, .1));
   display: flex;
   align-items: center;
   justify-content: space-between;
