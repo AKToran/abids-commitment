@@ -78,7 +78,7 @@ nav h1{
 }
 
 .banner {
-  background-image: url('/assets/Hero-bg.png');
+  background-image: url("../assets/Hero-bg.png");
   max-height: 652px;
   text-align: center;
   background-size: cover;
@@ -134,16 +134,16 @@ nav h1{
   margin-top: 25px;
 }
 
-.inspiration, .current-target{
+.inspiration, .current-target, .next-target{
   margin: 50px 150px;
 }
 
-.inspiration>p , .current-target>p{
+.inspiration>p , .current-target>p, .next-target>p{
   text-align: center;
   margin-bottom: 20px;
 }
 
-.inspiration > .description, .current-target > .description{
+.inspiration>.description, .current-target>.description, .next-target>.description{
   padding: 0px 120px;
 }
 
@@ -166,13 +166,18 @@ iframe{
   gap: 25px;
 }
 
+.cards h3, .target h3{
+  font-size: 26px;
+  line-height: 50px;
+}
+
 .current-target .card{
   padding: 40px;
   border-radius: 16px;
   margin: 45px 0px;
 }
 
-.current-target .card a{
+.current-target .card a, .next-target a{
   font-weight: 700;
   font-size: 18px;
   color: rgb(13, 19, 33);
@@ -186,4 +191,20 @@ iframe{
 }
 .c3{
   background: rgba(233, 225, 87, 0.4);
+}
+
+.next-target .target{
+  display: flex;
+  gap: 40px;
+  border: 1px solid rgba(127, 127, 127, 0.5);
+  border-radius: 16px;
+  padding: 40px;
+  margin: 25px 0px;
+  align-items: center;
+}
+
+
+
+.target img{
+  width: 120px;
 }
