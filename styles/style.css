@@ -33,6 +33,18 @@
   cursor: pointer;
 }
 
+.btn-tertiary{
+  border: 1px solid rgb(13, 19, 33);
+  background-color: white;
+  opacity: 0.8;
+  padding: 12px 20px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 20px 0px;
+}
+
 hr{
   border: 1px dashed gray;
 }
@@ -42,6 +54,13 @@ hr{
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
+}
+
+.section-title{
+  font-size: 32px;
+  color: rgb(13, 19, 33);
+  font-weight: 800;
+  line-height: 37px;
 }
 
 /*! header styles */
@@ -79,3 +98,37 @@ nav h1{
 .banner button{
   margin-top: 30px;
 }
+
+/*! main styles */
+.why-web{
+  margin: 75px 150px;
+  background: rgba(13, 19, 33, 0.02);
+  padding: 80px 95px;
+}
+
+.why-web >h1, .why-web>p{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.why-dev-info{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px 0px 48px 48px;
+  gap: 100px;
+  max-height: 335px;
+  margin-top: 25px;
+}
+.why-dev-info-2{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px 48px 48px 0px;
+  gap: 100px;
+  max-height: 335px;
+  margin-top: 25px;
+}
+
